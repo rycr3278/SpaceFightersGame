@@ -188,9 +188,7 @@ def main():
         handle_bullets(player1_bullets, player2_bullets, player1, player2)
         
         
-        draw_window(player2, player1, player2_bullets, player1_bullets, player2_health, player1_health)        
-
-main()    
+        draw_window(player2, player1, player2_bullets, player1_bullets, player2_health, player1_health)  
     
 # entry point    
 if __name__ == "__main__":
